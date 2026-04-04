@@ -20,7 +20,7 @@ body{
 .logo{
   display:flex;
   align-items:center;
-  gap:10px;
+  gap:11px;
 }
 .logo1-box{
   width:20px;
