@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>File d’attente</title>
+  <link rel="stylesheet" href="file d'attente.css">
+</head>
+<body>
+  <div class="queue-container">
+    <h2>File d’attente</h2>
+
+  <table class="queue-table">
+  <thead>
+    <tr>
+      <th>Numéro</th>
+       <th>Service</th>
+      <th>Statut</th>
+    </tr>
+  </thead>
+<tbody>
+   <tr>
+ <td>A23</td>
+<td>Dépôt</td>
+<td class="status in-progress">En cours</td>
+        </tr>
+        <tr>
+<td>A24</td>
+<td>Retrait</td>
+<td class="status waiting">En attente</td>
+        </tr>
+        <tr>
+<td>A22</td>
+<td>Dépôt</td>
+<td class="status done">Terminé</td>
+        </tr>
+        <tr>
+<td>A25</td>
+<td>Consultation</td>
+<td class="status waiting">En attente</td>
+</tr>
+<tr>
+   <td>A26</td>
+  <td>Retrait</td>
+  <td class="status waiting">En attente</td>
+        </tr>
+      </tbody>
+    </table>
+<p class="waiting-time">Temps d’attente estimé : <strong>12 minutes</strong></p>
+<button class="refresh-btn">Actualiser</button>
+</div>
+</body>
+</html>

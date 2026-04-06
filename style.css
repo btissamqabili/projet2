@@ -35,6 +35,24 @@ body{
   color:#000;
   font-size:14px;
 }
+.btn-nav {
+  background: black;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-nav:hover {
+  background: #120585;
+
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(14, 165, 233, 0.3);
+}
+
 .hero{
 display:flex;
 justify-content:space-between;
@@ -55,13 +73,6 @@ align-items:center;
 .hero-text p{
   font-size:14px;
   margin-bottom:20px;
-}
-.hero-img{
-  width:320px;   
-  height:220px; 
-  border:1px solid #999;
-  border-radius:6px;
-  overflow:hidden;
 }
 
 .hero-img img{
@@ -245,7 +256,7 @@ display:flex;
 .adv-item{
   display:flex;
   align-items:flex-start;
-  gap:15px;
+  gap:4px;
   margin-bottom:20px;
 }
 
@@ -254,12 +265,13 @@ display:flex;
   height:12px;
   background:#ddd;
   border-radius:50%;
-  margin-top:6px;
+  margin-top:4px;
 }
 
 .adv-item h4{
   font-size:14px;
-  margin-bottom:5px;
+  margin-bottom:10px;
+
 }
 
 .adv-item p{
@@ -295,43 +307,82 @@ display:flex;
   transform: translateY(-10px);
   box-shadow: 0 10px 30px rgba(14, 165, 233, 0.3);
 }
-.footer{
-  background:#b7a4a4;
-  padding:30px 40px;
-  display:flex;
-  justify-content:space-between;
-  flex-wrap:wrap;
-  position:relative;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-.footer-left{
-  display:flex;
-  align-items:center;
-  gap:10px;
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 30px 0;
 }
 
-.logo2-box{
+
+.container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+
+.footer-left {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.copyright {
+  font-size: 12px;
+  color: #777;
+  margin: 0;
+}
+.square {
   width:20px;
   height:20px;
   background:#e4dede;
   border-radius:4px;
 }
 
-.footer-center h4,
-.footer-right h4{
-  margin-bottom:10px;
+.footer-left p {
+  font-size: 12px;
+  color: #777;
+  margin: 0;
 }
 
-.footer-right p{
-  font-size:13px;
-  margin-bottom:5px;
+
+.footer-right {
+  display: flex;
+  gap: 60px;
 }
 
-.copy{
-  position:absolute;
-  bottom:10px;
-  left:40px;
-  font-size:12px;
+.footer-right h4 {
+  margin-bottom: 8px;
+  font-size: 14px;
 }
+
+.footer-right a {
+  display: block;
+  text-decoration: none;
+  color: #777;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.footer-right p {
+  font-size: 13px;
+  color: #777;
+  margin: 3px 0;
+}
+
 
 

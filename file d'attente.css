@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #e0f5f5; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.queue-container {
+  background: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.queue-container h2 {
+  color: #003366;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.queue-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.queue-table th, .queue-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.queue-table th {
+  background: #003366;
+  color: #fff;
+}
+
+.status.in-progress {
+  color: #6a1b9a;
+  font-weight: bold;
+}
+
+.status.waiting {
+  color: #ff9800; 
+  font-weight: bold;
+}
+
+.status.done {
+  color: #4caf50; 
+  font-weight: bold;
+}
+
+.waiting-time {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.refresh-btn {
+  display: block;
+  margin: 0 auto;
+  background: #003366;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.refresh-btn:hover {
+  background: #0055aa;
+}
